@@ -17,8 +17,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (40.0f));
-    g.setColour (juce::Colours::yellow);
-    g.drawText ("Guile Barros", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::blue);
+    g.drawText ("Update Graphics", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
